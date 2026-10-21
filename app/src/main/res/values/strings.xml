@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Study Reminder</string>
+    <string name="app_title">📚 STUDY REMINDER</string>
+    <string name="section_progress">Today\'s progress</string>
+    <string name="section_focus">Focus timer (25 min)</string>
+    <string name="focus_note">Reminders pause during focus. A completed session logs the studied minutes.</string>
+    <string name="btn_stop_reminders">Stop reminders</string>
+    <string name="btn_start_reminders">START REMINDERS</string>
+    <string name="status_on">ON: silent pop-up every %d min · 24/7</string>
+    <string name="status_off">OFF</string>
+    <string name="btn_start_focus">▶  Start focus</string>
+    <string name="btn_stop_focus">■  Stop focus</string>
+    <string name="today_progress">%1$d / %2$d min studied today</string>
+    <string name="streak_active">🔥 Streak: %d days</string>
+    <string name="streak_zero">Streak: 0 — hit today\'s goal to start</string>
+    <string name="toast_notif_permission">Please allow notifications to receive reminders</string>
+    <string name="toast_exact_alarm">Allow \'Alarms &amp; reminders\' for exact timing</string>
+    <string name="toast_focus_stopped_early">Focus stopped early</string>
+    <string name="toast_theme_locked">Stop the focus timer before changing theme</string>
+    <string name="notif_action_studying">I\'m studying ✔</string>
+    <string name="notif_action_stop">Stop</string>
+    <string name="notif_focus_title">🎉 Focus complete</string>
+    <string name="notif_focus_text">Great job! Focus session done. Take a short break, then come back.</string>
+    <!-- kept for ReminderReceiver compat -->
+    <string name="btn_test">Send test notification</string>
+    <string name="btn_battery">Battery settings</string>
+    <string name="btn_theme_system">Theme: System 🌓</string>
+    <string name="btn_theme_light">Theme: Light ☀️</string>
+    <string name="btn_theme_dark">Theme: Dark 🌙</string>
+</resources>

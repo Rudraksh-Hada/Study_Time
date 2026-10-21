@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fullscreen Focus Mode — pure black + circular ring only -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Circular countdown ring (custom view) -->
+    <com.padhai.reminder.CircularTimerView
+        android:id="@+id/circularTimer"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center" />
+
+    <!-- Time label inside ring -->
+    <TextView
+        android:id="@+id/tvFocusTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="25:00"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light" />
+
+    <!-- Tap to stop hint at bottom -->
+    <TextView
+        android:id="@+id/tvFocusTap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:text="Tap to stop focus"
+        android:textColor="#66FFFFFF"
+        android:textSize="14sp" />
+
+</FrameLayout>

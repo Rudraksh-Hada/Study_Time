@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode: keep all theme items, only override status bar icon tint -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/berry_primary</item>
+        <item name="colorOnPrimary">@color/berry_on_primary</item>
+        <item name="colorSecondary">@color/berry_secondary</item>
+        <item name="colorSurface">@color/berry_surface</item>
+        <item name="colorOnSurface">@color/berry_text</item>
+        <item name="colorOutline">@color/berry_outline</item>
+        <item name="android:colorBackground">@color/berry_bg</item>
+        <item name="android:windowBackground">@color/berry_bg</item>
+        <item name="android:statusBarColor">@color/berry_bg</item>
+        <item name="android:navigationBarColor">@color/berry_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/berry_text</item>
+        <item name="materialButtonStyle">@style/Widget.Berry.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Berry.Button.Outlined</item>
+    </style>
+</resources>

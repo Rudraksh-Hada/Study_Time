@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="berry_bg">#FFF6FA</color>
+    <color name="berry_surface">#FFFFFF</color>
+    <color name="berry_primary">#D6006F</color>
+    <color name="berry_on_primary">#FFFFFF</color>
+    <color name="berry_secondary">#5B3FD9</color>
+    <color name="berry_text">#2B1235</color>
+    <color name="berry_outline">#E3C9DB</color>
+</resources>

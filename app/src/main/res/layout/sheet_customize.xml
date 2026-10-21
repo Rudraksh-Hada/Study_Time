@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingBottom="32dp">
+
+    <!-- Drag handle -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@color/berry_outline"
+        android:backgroundTint="@color/berry_outline" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="⚙️  Customize"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/berry_primary" />
+
+    <!-- Send test notification -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSheetTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="🔔  Send test notification" />
+
+    <!-- Battery settings -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSheetBattery"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="🔋  Battery settings" />
+
+    <!-- Theme toggle -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSheetTheme"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Theme: System 🌓" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/berry_outline" />
+
+    <!-- Background image -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="🖼️  Background Image"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/berry_primary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSheetBg"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="📷 Choose from gallery" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSheetBgClear"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✕ Remove" />
+    </LinearLayout>
+
+</LinearLayout>
