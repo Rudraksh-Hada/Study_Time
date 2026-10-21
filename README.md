@@ -6,6 +6,12 @@ No AI, no cloud, no account. Everything runs on your phone.
 
 ---
 
+## Download
+
+[Download Study Reminder APK](https://github.com/Rudraksh-Hada/Study_Time/releases/latest)
+
+---
+
 ## Why I made this
 
 I kept telling myself "5 more minutes" and then it was 2 a.m. and the syllabus was exactly where I left it. Normal reminders were too polite, so I built one that isn't.
